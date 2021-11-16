@@ -19,8 +19,6 @@ for(let i = 0; i <= 100; i++) {
         multipleFizzBuzz = 'Fizz'           // attribuisco valore stringa Fizz
     } else if( i % 5  === 0 ) {             // oppure se divisibile per 5 e senza resto
         multipleFizzBuzz = 'Buzz'           // attribuisco valore stringa Buzz
-    } else {                                // oppure
-        multipleFizzBuzz = 'normali'        // attribuisco valore stringa Normali
     }
     //stampo in console valore multipleFizzBuzz
     console.log(multipleFizzBuzz);
