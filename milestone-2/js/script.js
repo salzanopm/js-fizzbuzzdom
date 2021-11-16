@@ -5,7 +5,7 @@
 // con il numero o la stringa corretta.
 
 // inizio ciclo
-for(let i = 0; i <= 100; i++) {
+for(let i = 1; i <= 100; i++) {
     
     // dichiaro la variabile "multipleFizzBuzz" 
     let multipleFizzBuzz;

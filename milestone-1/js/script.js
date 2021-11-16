@@ -5,7 +5,7 @@
 // Per i numeri che sono sia multipli di 3 che di 5 stampi in console FizzBuzz.
 
 // dichiaro variabile "i" parte da zero finisce a 100 e incrementa di 1
-for(let i = 0; i <= 100; i++) {
+for(let i = 1; i <= 100; i++) {
     // stampo
     console.log(i);
 

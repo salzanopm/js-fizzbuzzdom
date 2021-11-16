@@ -4,7 +4,7 @@
 // assegna un colore per ogni attributo di multipleFizzBuzz
 
 // inizio ciclo
-for(let i = 0; i <= 100; i++) {
+for(let i = 1; i <= 100; i++) {
 
     // dichiaro variabile "multipleFizzBuzz"
     let multipleFizzBuzz;
