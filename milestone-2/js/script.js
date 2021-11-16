@@ -7,18 +7,30 @@
 // inizio ciclo
 for(let i = 0; i <= 100; i++) {
     
-    // dichiaro variabile "multipleFizzBuzz" 
+    // dichiaro la variabile "multipleFizzBuzz" 
     let multipleFizzBuzz;
 
-    // parto con la condizione
+      // inizio ciclo condizioni
+    // 1a condizione
     if (( i % 3  === 0 )&&( i % 5 === 0 )){ // se divisibile per 3 e 5 e senza resto
-        multipleFizzBuzz = 'FizzBuzz'       // attribuisco valore stringa FizzBuzz
+
+        multipleFizzBuzz = 'FizzBuzz'       // attribuisco il valore 'FizzBuzz' alla stringa multipleFizzBuzz
+
+    // 2a condizione
     } else if ( i % 3 === 0 ) {             // oppure se divisibile per 3 e senza resto
-        multipleFizzBuzz = 'Fizz'           // attribuisco valore stringa Fizz
+
+        multipleFizzBuzz = 'Fizz'           // attribuisco il valore 'Fizz' alla stringa multipleFizzBuzz 
+
+    // 3a condizione
     } else if( i % 5  === 0 ) {             // oppure se divisibile per 5 e senza resto
-        multipleFizzBuzz = 'Buzz'           // attribuisco valore stringa Buzz
-    } else {             // oppure se divisibile per 5 e senza resto
-        multipleFizzBuzz = i           // attribuisco valore stringa Buzz
+
+        multipleFizzBuzz = 'Buzz'           // attribuisco il valore 'Buzz' alla stringa multipleFizzBuzz
+
+    // ultima condizione           
+    } else {                                // oppure
+
+        multipleFizzBuzz = i                // il restante lo associo a multipleFizzBuzz
+
     }
 
     //stampo in console valore multipleFizzBuzz
